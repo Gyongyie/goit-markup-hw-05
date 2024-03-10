@@ -113,9 +113,36 @@
     size: 500px;
     line height: 100px;
 }   
-.buten-order {
-        background-color: #4D5AE5;
-        color: white;
+.butten-order {
+    margin: none;
+    background-color: #4D5AE5;
+    color: white;
+    padding: 15px;
+}
+
+.butten-order:focus,
+.butten-order:hover {
+    cursor: pointer;
+
+}
+
+.is-hidden {
+    visibility: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+      
 }
 
 .list li {
