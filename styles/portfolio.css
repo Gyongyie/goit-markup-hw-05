@@ -14,21 +14,23 @@
     color: var(-- link color);
 }
 
+
 .global-header li {
     list-style-type: none;
-    }
+}
 
 .global-header {
     color: #2E2F42;
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
     width: 1200px;
     height: 72px;
-    border: 15px;
     margin-block-start: 0%;
-    border: 5px black;
-    padding: 24px;
+    border-bottom: 1px solid blue;
+  width: 100%;
+    
 }
 
 .logo1::before {
@@ -58,10 +60,10 @@
     Gap: 40px;
     Weight: 500;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-block-start: 0%;
-    text-decoration:none;
-  }
+    text-decoration: none;
+}
 
 .linkk {
     text-decoration: none;
@@ -123,10 +125,12 @@
 
 .container {
     display: flex;
-    justify-content: center;
-    width: 1200px;
+    justify-content: space-evenly;
+    width: 1400px;
+    width: 100%;
     
 }
+
 
 .list {
     list-style: none;
@@ -185,13 +189,15 @@
 }
 
 .footer {
-    ackground: rgb(46, 23, 3);
+    background-color: rgb(46, 23, 3);
     background: linear-gradient(90deg, rgba(46, 23, 3, 1) 77%, rgba(83, 54, 46, 1) 83%, rgba(23, 21, 18, 1) 94%), black;
     color: #F4F4FD;
     padding: 94px;
     display: flex;
     flex-direction: row;
     justify-content: left;
+    width: 1200px;
+    width: 100%;
 }
 
 .logo2::before {
