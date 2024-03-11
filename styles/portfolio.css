@@ -29,7 +29,7 @@
     height: 72px;
     margin-block-start: 0%;
     border-bottom: 1px solid blue;
-  width: 100%;
+
     
 }
 
@@ -126,8 +126,8 @@
 .container {
     display: flex;
     justify-content: space-evenly;
-    width: 1400px;
-    width: 100%;
+    width: 1200px;
+   
     
 }
 
@@ -197,7 +197,7 @@
     flex-direction: row;
     justify-content: left;
     width: 1200px;
-    width: 100%;
+    
 }
 
 .logo2::before {
