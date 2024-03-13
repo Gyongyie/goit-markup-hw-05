@@ -59,6 +59,12 @@
     text-decoration: none;
 }
 
+.active {
+    border-bottom: 5px solid rgb(230, 165, 165);
+    padding-bottom: 24px;
+    text-decoration: none;
+}
+
 .button {
     Width: 261px;
     Height: 24px;
@@ -124,6 +130,7 @@
     background-color: #4D5AE5;
     color: white;
     padding: 15px;
+   
 }
 
 .butten-order:focus,

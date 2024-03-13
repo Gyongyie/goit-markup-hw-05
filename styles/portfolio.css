@@ -14,6 +14,11 @@
     color: var(-- link color);
 }
 
+.active {
+    border-bottom: 5px solid rgb(230, 165, 165);
+    padding-bottom: 48px;
+    text-decoration: none;
+}
 
 .global-header li {
     list-style-type: none;
@@ -85,7 +90,7 @@
 
 .button-section {
    display: flex;
-   color: var(--brand-color);
+color: var(--brand-color);
    list-style: none;
    justify-content: space-around;
    padding-left: 20px;
@@ -98,15 +103,11 @@
     color: blue; 
 }
 
-
 .buttons {
-   
     align-items: center;
-  
     color: blue;
     background-color: R #E7E9FC;
-
-    color: var(--links-color);
+color: var(--links-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -116,21 +117,16 @@
 
 .buttons:hover,
 .buttons:focus {
-    background-color: var(--logo-and-hover-color);
-    color: var(--coral-color);
     cursor: pointer;
+    background-color: blue;
+    color: white;
 }
-   
-
 
 .container {
     display: flex;
     justify-content: space-evenly;
     width: 1200px;
-   
-    
 }
-
 
 .list {
     list-style: none;
@@ -141,14 +137,13 @@
     align-content: stretch;
     padding-bottom: 94px;
     flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .card-app:hover,
 .card-app:focus {
-   
     cursor: pointer;
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-    
 } 
 
 .card-app:active::before {
@@ -159,6 +154,49 @@
     weight: 500;
     color: #2E2F42;
 }
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f51b5;
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.overlay code {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+
 
 .icons-list {
     display: flex;
@@ -180,7 +218,7 @@
 .icon {
     width: 44px;
     height: 44px;
-    background-color: blue;
+   
     border-radius: 50%;
     flex-direction: row;
     display: flex;
