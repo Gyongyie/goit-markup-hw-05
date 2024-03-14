@@ -218,12 +218,19 @@ color: var(--links-color);
 .icon {
     width: 44px;
     height: 44px;
-   
+    
     border-radius: 50%;
     flex-direction: row;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon:hover,
+.icon:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
 }
 
 .footer {
@@ -237,6 +244,7 @@ color: var(--links-color);
     width: 1200px;
     
 }
+
 
 .logo2::before {
     content: "Web";
