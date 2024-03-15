@@ -48,8 +48,6 @@
     text-decoration: none;
     border line: 5px;
     
-  
-
 }
 .global-header :hover {
    color:chartreuse;
@@ -119,7 +117,6 @@
        
 }    
 
-
 .title{
     font-weight: 700;
     size: 500px;
@@ -151,27 +148,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .modal-content {
-      margin: 0 auto;
-      padding: 16px;
-      background-color: #fff;
-      width: 50%;
-      height: 500px;
-      position: relative;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fff;
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
       
-
 .close-btn {
     background-color: #FCFCFC;
     border-radius: 50%;
     color: navy; 
     outline: none;
-   position: absolute;
-   top: 24px;
-   right: 24px;
-  
+    position: absolute;
+    top: 24px;
+    right: 24px;
 }
 
 .list li {
@@ -184,10 +179,8 @@
     justify-content: space-evenly;
     gap: 15px;
     padding-top: 94px;
-    padding-bottom: 94px;
-    
+    padding-bottom: 94px; 
 }
-
 
 .list .enumeration {
     color:#2E2F42;
