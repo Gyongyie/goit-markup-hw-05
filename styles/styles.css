@@ -151,6 +151,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .modal-content {
@@ -159,17 +160,18 @@
       background-color: #fff;
       width: 50%;
       height: 500px;
-      position: relativ;
-}
+      position: relative;
+      
 
 .close-btn {
     background-color: #FCFCFC;
     border-radius: 50%;
     color: navy; 
     outline: none;
-    position: absolute;
-    top: 125px;
-    left:1070px;    
+   position: absolute;
+   top: 24px;
+   right: 24px;
+  
 }
 
 .list li {
